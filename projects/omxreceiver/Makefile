@@ -1,4 +1,5 @@
-ROOTFS=$(HOME)/raspberrypi/rootfs
+ROOTFS=
+# ROOTFS=$(HOME)/raspberrypi/rootfs
 COMMON=../../common
 
 OBJS=Main.o PictureAnalyser.o OsdGraphics.o OsdImage.o OmxVideoDecode.o vga.o $(COMMON)/StreamReader.o $(COMMON)/TsAnalyser.o $(COMMON)/PesAnalyser.o $(COMMON)/PesPacket.o
